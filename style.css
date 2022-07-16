@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: gold;
+    height: 80px;
+}
+
+header .logo {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container{
+   padding: 5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.container .container-sorteio{
+    display: flex;
+}
+
+.container .sorteio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.data{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    padding: 7px  15px;
+    border-radius: 5px ;
+    margin-bottom: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+
+.container .sorteio .bola{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-bola{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: 55%;
+   
+    justify-content: center;
+   
+}
+
+.container-bola .bola-2{
+    padding: 5px;
+}
+
+.container-bola .bola-2 h4{
+    color: blue;
+}
